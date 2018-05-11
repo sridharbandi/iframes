@@ -14,13 +14,13 @@ class Frame extends Component {
                 <br />
                 <Grid container justify='center' spacing={0}>
                     <Grid item xs={10} sm={8}>
-                        <Iframe url="/brettzbkar"
+                        <Iframe url={process.env.PUBLIC_URL + 'brettzbkar'}
                             id="frame-one-id"
                             height="250px"
                             display="initial"
                             position="relative"
                             allowFullScreen />
-                        <Iframe url="/fvuysxcixg"
+                        <Iframe url={process.env.PUBLIC_URL + 'fvuysxcixg'}
                             id="frame-two-id"
                             height="220px"
                             display="initial"
@@ -29,7 +29,7 @@ class Frame extends Component {
                         <Typography style={{color: 'grey'}}>
                             Iframe with in iframe example
                         </Typography>
-                        <Iframe url="/ovppntqvvk"
+                        <Iframe url={process.env.PUBLIC_URL + 'ovppntqvvk'}
                             id="frame-three-id"
                             height="410px"
                             display="initial"
